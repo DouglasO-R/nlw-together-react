@@ -1,11 +1,9 @@
-import { useContext } from "react";
 import { Link } from "react-router-dom";
 
 import IlustrationImg from "../assets/images/illustration.svg";
 import logoImg from "../assets/images/logo.svg";
 
 import { Button } from "../components/Button";
-import { AuthContext } from "../contexts/AuthContexts";
 import { useAuth } from "../hooks/useAuth";
 
 import "../styles/auth.scss"
