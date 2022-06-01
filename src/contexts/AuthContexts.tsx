@@ -1,7 +1,6 @@
 import { createContext, ReactNode, useEffect, useState } from "react";
 import { auth,firebase } from "../services/firebase";
 
-export const AuthContext = createContext({} as AuthContextType);
 
 type User = {
     id: string;
@@ -17,6 +16,9 @@ type AuthContextType = {
 type AuthContextProps = {
     children:ReactNode;
 }
+
+export const AuthContext = createContext({} as AuthContextType);
+
 
 export function AuthContextProvider(props:AuthContextProps) {
     const [user, setUser] = useState<User>();
