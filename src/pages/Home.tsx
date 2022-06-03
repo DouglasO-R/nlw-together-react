@@ -43,6 +43,11 @@ export function Home() {
             alert("Room does not exists");
         }
 
+        if(roomRef.val().endedAt){
+            alert("Room Already close");
+            return;
+        }
+
         navigate(`/rooms/${roomCode}`);
     }
 
