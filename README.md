@@ -1,4 +1,9 @@
+<p align="center">
+  <img alt="letmeaskt" src=".github/letmeask.png" width="50%">
+</p>
+
 ## Deploy
+
 
 ## 🧪 Tecnologias
 
@@ -47,7 +52,3 @@ Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
 ## 📝 License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
----
-
-Feito com 💜 by Rocketseat 👋🏻 [Participe da nossa comunidade](https://discord.gg/gKUVrzrPrU)
